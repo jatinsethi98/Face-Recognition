@@ -44,11 +44,11 @@ The instruction to save and load the learning are commented inside the Python fi
 
 
 ### Pros:
--> This method gets better with more and more images.
+1. This method gets better with more and more images.
 ### Cons:
--> It is slower as it takes the image-to-compare and tries to match it with every image in it\'92s database.
--> So, a database with 5000 images will take 5000x time.
--> It requires about 10 images to start off with also.
+1. It is slower as it takes the image-to-compare and tries to match it with every image in it's database.
+2. A database with 5000 images will take 5000x time.
+3. It requires about 10 images to start off.
 
 
 ## Method-2 using Face_Recognition(OpenFace) (Neural Engine)
@@ -64,7 +64,7 @@ Note: Please put 1 photo per person. Try with 3-4 photos first as the time to tr
 1. My file uses the webcam to detect faces but you can also use images to do so.
 2. It pulls out the video from the Webcam, scales it down to 1/4 resolution and detects every second frame to save computing power.
 3. You will have to change the path according to your location of recognized faces.
-4. The code is pretty comprehensive on it\'92s own. Few things to note though:
+4. The code is pretty comprehensive on its own. Few things to note though:
 	1. The huge commented out region in the middle which says 'pickle' is used for saving the learnings.
 	2. What it basically does is saves the Neural scans list and the corresponding Image Names list. Pickle is used to save these lists. It saves them as .txt files in the same folder as your python file.
 	3. You can then read these learning using the same method(pickle). The code is there in the file but commented out.
