@@ -1,27 +1,19 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2512
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11905\paperh16837\margl1440\margr1440\vieww14700\viewh14300\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+***READ ME***
 
-\f0\fs24 \cf0 ***READ ME***\
-\
+## Requirements
 
-\f1\b\fs28 Requirements\
+1. Python 3
+2. Homebrew
+3. Xcode
+4. Install PIP
+5. Libraries for python 3:
+	1. Open CV3
+	2. Numpy
+	3. matplotlib
+	4. face_recognition based on Open Face
+	5. Image
 
-\f0\b0\fs24 1. Python 3\
-2. Homebrew\
-3. Xcode\
-4. Install PIP\
-5. Libraries for python 3:\
-	1. Open CV3\
-	2. Numpy\
-	3. matplotlib\
-	4. face_recognition based on Open Face\
-	5. Image\
-\
-Links: {\field{\*\fldinst{HYPERLINK "http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/"}}{\fldrslt http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/}}\
+Links: "http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/"}}{\fldrslt http://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/}}\
 		{\field{\*\fldinst{HYPERLINK "https://pypi.python.org/pypi/face_recognition#downloads"}}{\fldrslt https://pypi.python.org/pypi/face_recognition#downloads}}\
 \
 
@@ -108,9 +100,7 @@ It uses only 1 image per person so it does not get better with each implementati
 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f1\b\fs28 \cf0 \
-Additional Files:\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\b0\fs24 \cf0 \
-\'95 There is a testing OpenCV installation folder where you can check if you have installed OpenCV correctly by running the python script. It basically converts an image to B&W.}
+# Additional Files:
+
+There is a testing OpenCV installation folder where you can check if you have installed OpenCV correctly by running the python script. It basically converts an image to B&W.}
